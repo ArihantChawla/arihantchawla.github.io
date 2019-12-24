@@ -97,8 +97,8 @@ $(document).ready(function() {
 		twitter.append(twitterLink);
 
 
-		console.log("$$$ Github element is currently: ");
-		console.log(github);
+//		console.log("$$$ Github element is currently: ");
+//		console.log(github);
 
 		contact.append(instagram);
 		contact.append(github);
@@ -106,8 +106,8 @@ $(document).ready(function() {
 		contact.append(twitter);
 
 
-		console.log("*** Working with the DOM: contactEl - ");
-		console.log(contact);
+//		console.log("*** Working with the DOM: contactEl - ");
+//		console.log(contact);
 		return contact;
 
 		arrowNavigationMode = true; // change this back after a
@@ -196,7 +196,7 @@ $(document).ready(function() {
 			case 'contact':
 				let contactEl = addToTerminal(contact, typeSpeedFast, true);
 				break;
-			case "whois":
+			case "whois":	
 				// add a div that
 				// have a function that creates and appends certan elements to the pages
 				break;
@@ -214,10 +214,11 @@ $(document).ready(function() {
 				// $('#abilities').show();
 				break;
 
+
 			case 'social':
 				// optimize this code and the code below - maybe in a function
 				let socialHTML = generateContactHTML();
-				//let socialEl = addHTMLToTerminal(socialHTML);
+				let socialEl = addHTMLToTerminal(socialHTML);
 				break;
 
 			case 'blog':
