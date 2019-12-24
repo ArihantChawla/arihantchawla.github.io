@@ -24,34 +24,33 @@ $(document).ready(function() {
 	quote = "We don't need no education.",
 	listCommands = 'Available commands: [about] [bio] [clear] [contact] [skills] [social] [blog] [quote]',
 	commandNotFound = 'command not found. don\'t worry, it\'s probably just a gg..glitch in the matrixxxx. gli$dvcs$glitch in the mmmaatrix-trix.',
-	skills = "Languages: & C/C++, Python, LaTeX, Qiskit, Bash, MySQL \n Software \& Tools: MatLab, GNU Octave, Adobe Photoshop, Proteus, Django \n Operating Systems: Linux (Debian), Windows 7/8/8.1/10",
+	skills = "Languages: & C/C++, Python, LaTeX, Qiskit, Bash, MySQL \n Software & Tools: MatLab, GNU Octave, Adobe Photoshop, Proteus, Django \n Operating Systems: Linux (Debian), Windows 7/8/8.1/10",
 	contact = "Contact me -> arihant.chawla@yahoo.com";
 	// let
 
 	let arrowNavigationMode = false;
 
 	let quotes = [
-		"There is no spoon.",
-		"Follow the white rabbit.",
-		"Don't think you are, know you are.",
-		"There's a difference between knowing the path and walking the path.",
-		"Free your mind",
-		"I can only show you the door. You're the one that has to walk through it.",
-		"The time has come to make a choice.",
-		"Choi: \"It just sounds to me like you need to unplug, man.",
-		"You've been living in a dream world, Neo.",
-		"What is \"real\"? How do you define \"real\"?",
-		"Welcome to the real world.",
-		"Because you have been down there Neo, you know that road, you know exactly where it ends. And I know that's not where you want to be.",
-		"A déjà vu is usually a glitch in the Matrix. It happens when they change something.",
-		"Do you believe that my being stronger or faster has anything to do with my muscles in this place? Do you think that's air you're breathing now?",
-		"Neo: I know kung fu. \nMorpheus: [eyeing him, hand on chin] Show me.",
-		"Trinity: Neo... nobody has ever done this before. \nNeo: That's why it's going to work.",
-		"Neo: I thought it wasn't real. \nMorpheus: Your mind makes it real.",
-		"The answer is out there, Neo, and it's looking for you, and it will find you if you want it to.",
-		"So what do you need? Besides a miracle.",
-		"I can only show you the door. You're the one that has to walk through it.",
-		"Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
+		"(on the milennial spirit) ...and we made and filed memories under our favourite songs. Our discography a collection of memories of places we longed to visit, conversations that did not happen, of repressed feelings, feelings of nostalgia, nostalgia of memories that we conviently made up, too afraid to actually live them. We filed these memories under our favourite songs, to live on for eternity. The memories live on for eternity. We, alas, are stuck in the banalities of the present.",
+		"The collective feeling of being trapped in the wrong spatio-temporal location (?) that's ingrained in our generation's dna is rooted in this cyclic renaissance, which like a comet returns and dazzles all of us by it's chameleon tail. All of us seeing a part of us as part of that tail and that's surreal, almost beautiful that we can feel this camaraderie without the need of discussing it or even mentioning it.",
+		"chalo chalein neel gagan ko",
+		"It's time to get back in the swing of things \n When my life crashes, I'm not the guy that'll flee the scene, I'll take ownership, own it and raise my hand if it's me",	
+		"If you looked at yourself in the world's most honest mirror, what would you see?",
+		"aren't you tired of being a hostage of your own pride?",
+		"ffsarihant , a cracked polystyrene man, who just crumbles and burns",
+		"ffsarihant authors his own disasters. % so you don't need me anymore?",
+		"ƃuıʎpnʇs ǝq plnoɥs ı ",
+		"how long must I justify my pain through these songs?",
+		"A beanie instantly increases your asshole-ry stat by 10 percent",
+		"I don't even feel attacked when someone calls me a boomer anymore",
+		"You ever feel you were meant to be alone? Cause I saw a play, and a character said that he was destined to never feel at home",
+		"I will draw my line, I will blur my line, I will cross my line",
+		"Are you even good enough to have imposter syndrome",
+		"Advice is a form of nostalgia, dispensing it is a way of fishing the past from the disposal, wiping it off, painting over the ugly parts and recycling it for more than it's worth",
+		"Yeah, if you made a list of people that you trusted, would you put your name down?",
+		"I wanna dress up as a DDoS attack for halloween but not enough of my friends are agreeing to",
+		"I had an epiphany",
+		"I wish I could capture the stars. \n At least in a photo, \n but I'd really like them in a jar, \n emulating fireflies. \n \n How powerful I'd feel, \n knowing that I had a bit of sky, \n the same sky everyone stood under, \n the same sky everyone wished upon, \n when seeing one of these stars fly. \n \n My little piece of universe would remind me \n how small I really am. \n But they would also remind me, \n how connected we are, \n and of the insane beauty of simplicity. \n \n I wish I could capture the stars. \n But now I realize the sadness. \n My jar of stars would outlive me. \n My everlasting fireflies",
 	];
 
 	function getRandomQuote() {
@@ -87,7 +86,7 @@ $(document).ready(function() {
 		});
 
 		let linkedinLink = $('<a>LinkedIn</a>').attr({
-			'href': 'https://linkedin.com/arihantchawla',
+			'href': 'https://linkedin.com/in/arihantchawla',
 			'target': '_blank'
 		})
 
