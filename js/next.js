@@ -121,7 +121,7 @@ $(document).ready(function() {
 			'target': '_blank'
 		});
 
-		let portfolioText = "You can see my porfolio of projects live ";
+		let portfolioText = "You can see my blog live ";
 
 		portfolioContainer.append(portfolioText);
 		portfolioContainer.append(portfolioLink);
@@ -138,10 +138,10 @@ $(document).ready(function() {
 	// <li><i class="fa fa-suitcase"></i> <a href="https://www.vretta.com/" target="_blank">work</a></li>
 
 
-	let shortBio = 'Self-taught web developer, absolutely passionate about coding and the future of technology. I am constantly learning and expanding my skills. While you are reading this, I am probably busy learning something new. I am interested in habit development, language learning (currently French), startups.';
-	let typeSpeedSuperFast = 30;
-	let typeSpeedSlow = 75;
-	let typeSpeedFast = 60; // in ms
+	let shortBio = "CS Undergrad who loves to code and read. if I'm not making something fun, you'll probably find me sitting in my cosy armchair with coffee, snuggling upto a book.";
+	let typeSpeedSuperFast = 25;
+	let typeSpeedSlow = 65;
+	let typeSpeedFast = 50; // in ms
 
 	var autotype = function(el, text, i, interval) {
 		// $(el).append("> ");
@@ -216,22 +216,22 @@ $(document).ready(function() {
 
 			case 'social':
 				// optimize this code and the code below - maybe in a function
-				let socialHTML = generateContactHTML();
+				//let socialHTML = generateContactHTML();
 				let socialEl = addHTMLToTerminal(socialHTML);
 				break;
 
-			case 'portfolio':
+			case 'blog':
 				let portfolioHTML = generatePortfolioHTML();
 				let portfolioEl = addHTMLToTerminal(portfolioHTML);
 				break;
 
 			case 'quote':
-
 				let quoteEl = addToTerminal(getRandomQuote(), typeSpeedFast, false);
 				break;
 
 			case '':
 				break;
+
 			default:
 				console.log("I don't understand, please choose between these options:");
 				let commandNotFoundEl = addToTerminal(commandNotFound, typeSpeedSuperFast, true);
