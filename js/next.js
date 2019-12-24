@@ -16,7 +16,7 @@ $(document).ready(function() {
 	let termHistory = []; // work with this
 
 	// Text Options
-	let wakeUp = "Hello, Friend",
+	let wakeUp = "Hello, Friend...",
 	knock = "Knock, knock, Ari...",
 	about = 'My name is Arihant Chawla. Leave me here.',
 	writeCode = "I write code. I write. And I dream.",
@@ -181,7 +181,7 @@ $(document).ready(function() {
 		let value = $('#term-prompt').val();
 
 		console.log("***" + typeof value);
-		termHistory.append(value.toLowerCase())		
+
 		switch (value.toLowerCase()) {
 			case 'about':
 				let aboutEl = addToTerminal(about, typeSpeedFast, false);
@@ -204,8 +204,7 @@ $(document).ready(function() {
 				// alert("help is working!");
 				let helpEl = addToTerminal(listCommands, typeSpeedFast, false);
 				break;
-			case "easteregg":
-				addToTerminal("Oh you found me",30,true)
+			case "list":
 				break;
 
 			case 'skills':
@@ -218,7 +217,7 @@ $(document).ready(function() {
 			case 'social':
 				// optimize this code and the code below - maybe in a function
 				let socialHTML = generateContactHTML();
-				let socialEl = addHTMLToTerminal(socialHTML);
+				//let socialEl = addHTMLToTerminal(socialHTML);
 				break;
 
 			case 'blog':
