@@ -16,15 +16,15 @@ $(document).ready(function() {
 	let termHistory = []; // work with this
 
 	// Text Options
-	let wakeUp = "Wake up, Neo...",
-	knock = "Knock, knock, Neo...",
-	about = 'My name is Alexander Kallaway, and I am a Front End Developer.',
-	writeCode = "I write code",
-	learnMore = "Learn more",
-	quote = "There is no spoon.",
-	listCommands = 'Available commands: [about] [bio] [clear] [contact] [skills] [social] [portfolio] [quote]',
-	commandNotFound = 'Command not found. Don\'t worry, it\'s probably just a glitch in the Matrix. Gli Glitch in the Matrix trix.',
-	skills = "Main: HTML5, CSS3, ReactJS, D3, GIT and Github.\n Familiar with: Haxe, OpenFL, Python, THREE.js, Node.js.",
+	let wakeUp = "Wake up, Ari...",
+	knock = "Knock, knock, Ari...",
+	about = 'My name is Arihant Chawla. Leave me here.',
+	writeCode = "I write code. I write. And I dream.",
+	learnMore = "Learn more. Read More.",
+	quote = "We don't need no education.",
+	listCommands = 'Available commands: [about] [bio] [clear] [contact] [skills] [social] [blog] [quote]',
+	commandNotFound = 'command not found. don\'t worry, it\'s probably just a gg..glitch in the matrixxxx. gli$dvcs$glitch in the mmmaatrix-trix.',
+	skills = "Languages: & C/C++, Python, LaTeX, Qiskit, Bash, MySQL \n Software \& Tools: MatLab, GNU Octave, Adobe Photoshop, Proteus, Django\n Operating Systems: Linux (Debian), Windows 7/8/8.1/10\\",
 	contact = "Contact me on Twitter -> @ka11away";
 	// let
 
