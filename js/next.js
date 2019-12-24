@@ -24,8 +24,8 @@ $(document).ready(function() {
 	quote = "We don't need no education.",
 	listCommands = 'Available commands: [about] [bio] [clear] [contact] [skills] [social] [blog] [quote]',
 	commandNotFound = 'command not found. don\'t worry, it\'s probably just a gg..glitch in the matrixxxx. gli$dvcs$glitch in the mmmaatrix-trix.',
-	skills = "Languages: & C/C++, Python, LaTeX, Qiskit, Bash, MySQL \n Software \& Tools: MatLab, GNU Octave, Adobe Photoshop, Proteus, Django\n Operating Systems: Linux (Debian), Windows 7/8/8.1/10\\",
-	contact = "Contact me on Twitter -> @ka11away";
+	skills = "Languages: & C/C++, Python, LaTeX, Qiskit, Bash, MySQL \n Software \& Tools: MatLab, GNU Octave, Adobe Photoshop, Proteus, Django \n Operating Systems: Linux (Debian), Windows 7/8/8.1/10",
+	contact = "Contact me -> arihant.chawla@yahoo.com";
 	// let
 
 	let arrowNavigationMode = false;
