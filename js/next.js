@@ -216,8 +216,8 @@ $(document).ready(function() {
 
 			case 'social':
 				// optimize this code and the code below - maybe in a function
-				//let socialHTML = generateContactHTML();
-				let socialEl = addHTMLToTerminal(socialHTML);
+				let socialHTML = generateContactHTML();
+				//let socialEl = addHTMLToTerminal(socialHTML);
 				break;
 
 			case 'blog':
