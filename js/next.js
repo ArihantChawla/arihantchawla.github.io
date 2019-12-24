@@ -54,7 +54,7 @@ $(document).ready(function() {
 	];
 
 	function getRandomQuote() {
-		var randomIndex = Math.floor(Math.random() * Math.floor((quotes.length)-1));
+		var randomIndex = Math.floor(Math.random() * Math.floor((quotes.length)));
 		console.log("Random index generated is " + randomIndex);
 		return quotes[randomIndex];
 	}
