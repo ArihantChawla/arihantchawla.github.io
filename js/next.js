@@ -65,7 +65,7 @@ $(document).ready(function() {
 	function generateContactHTML() {
 		let contact = $('<ul id="abilities"></ul>');
 
-		let codewars = $('<li></li>');
+		let instagram = $('<li></li>');
 		let github = $('<li></li>'); // optimize this
 		let linkedin = $('<li></li>');
 		let twitter = $('<li></li>');
