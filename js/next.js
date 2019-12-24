@@ -72,26 +72,26 @@ $(document).ready(function() {
 
 
 		let githubLink = $('<a>Github</a>').attr({
-			'href': 'https://github.com/kallaway/',
+			'href': 'https://github.com/arihantchawla/',
 			'target': '_blank'
 		});
 
 		let twitterLink = $('<a>Twitter</a>').attr({
-			'href': 'https://twitter.com/ka11away',
+			'href': 'https://twitter.com/ArihantChawla',
 			'target': '_blank'
 		});
 
-		let codewarsLink = $('<a>Codewars</a>').attr({
-			'href': 'http://www.codewars.com/users/Kallaway',
+		let instagramLink = $('<a>Instagram</a>').attr({
+			'href': 'http://www.instagram.com/ffsarihant',
 			'target': '_blank'
 		});
 
 		let linkedinLink = $('<a>LinkedIn</a>').attr({
-			'href': 'https://ca.linkedin.com/in/kallaway',
+			'href': 'https://linkedin.com/arihantchawla',
 			'target': '_blank'
 		})
 
-		codewars.append(codewarsLink);
+		instagram.append(instagramLink);
 		github.append(githubLink);
 		linkedin.append(linkedinLink);
 		twitter.append(twitterLink);
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		console.log("$$$ Github element is currently: ");
 		console.log(github);
 
-		contact.append(codewars);
+		contact.append(instagram);
 		contact.append(github);
 		contact.append(linkedin);
 		contact.append(twitter);
@@ -117,7 +117,7 @@ $(document).ready(function() {
 		let portfolioContainer = $('<div></div>');
 
 		let portfolioLink = $('<a>here</a>').attr({
-			'href': 'https://codepen.io/kallaway/',
+			'href': 'https://thearihantchawlablog.wordpress.com',
 			'target': '_blank'
 		});
 
