@@ -68,6 +68,7 @@ $(document).ready(function() {
 		let github = $('<li></li>'); // optimize this
 		let linkedin = $('<li></li>');
 		let twitter = $('<li></li>');
+		let goodreads = $('<li></li>');
 
 
 		let githubLink = $('<a>Github</a>').attr({
@@ -89,11 +90,17 @@ $(document).ready(function() {
 			'href': 'https://linkedin.com/in/arihantchawla',
 			'target': '_blank'
 		})
+		
+		let goodreadsLink = $('<a>Goodreads</a>').attr({
+			'href': 'https://www.goodreads.com/user/show/81782856-arihant-chawla',
+			'target': '_blank'
+		})
 
 		instagram.append(instagramLink);
 		github.append(githubLink);
 		linkedin.append(linkedinLink);
 		twitter.append(twitterLink);
+		goodreads.append(goodreadsLink);
 
 
 //		console.log("$$$ Github element is currently: ");
@@ -103,6 +110,7 @@ $(document).ready(function() {
 		contact.append(github);
 		contact.append(linkedin);
 		contact.append(twitter);
+		contact.append(goodreads);
 
 
 //		console.log("*** Working with the DOM: contactEl - ");
